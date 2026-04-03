@@ -1,6 +1,7 @@
-# Stereo Vision 3D Reconstruction
 
-This project demonstrates basic 3D point reconstruction from stereo image correspondences using OpenCV.
+This project demonstrates 3D point reconstruction from stereo image correspondences using triangulation and camera projection matrices in OpenCV.
+
+Two camera views observe the same point, and its 3D position is computed by intersecting the corresponding rays from each camera.
 
 ## Concepts Used
 
@@ -9,8 +10,11 @@ This project demonstrates basic 3D point reconstruction from stereo image corres
 - Triangulation
 - 3D reconstruction from two views
 
+## Output
+
+Reconstructed 3D points from corresponding image coordinates.
+
 ## How to Run
 
-```bash
-pip install -r requirements.txt
+pip install -r requirements.txt  
 python main.py
