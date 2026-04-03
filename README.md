@@ -12,7 +12,10 @@ Two camera views observe the same point, and its 3D position is computed by inte
 
 ## Output
 
-Reconstructed 3D points from corresponding image coordinates.
+Reconstructed 3D Points (in camera/world units):
+Point 1: X=0.000, Y=-0.000, Z=4000.000
+Point 2: X=150.000, Y=100.000, Z=4000.000
+Point 3: X=400.000, Y=300.000, Z=4000.000
 
 ## How to Run
 
